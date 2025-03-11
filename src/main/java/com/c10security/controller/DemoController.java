@@ -19,4 +19,9 @@ public class DemoController {
     public String admin() {
         return "admin";
     }
+
+    @GetMapping("accessDenied")
+    public String accessDenied() {
+        return "accessDenied";
+    }
 }
